@@ -1,0 +1,89 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  color: #2f2d13
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: block;
+}
+
+header {
+  background-color: #ffe500;
+  text-align: center;
+  padding: .2em .5em .3em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Sigmar One', sans-serif;
+  color: #b20953;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.875rem;
+  margin: 0;
+  font-family: 'Sigmar One', sans-serif;
+  color: #b20953;
+  margin: 0 0 .3em;
+  padding: .75em;
+}
+
+.nav li {
+  background-color: #b2a212;
+  border-radius: 4px;
+  display: inline-block;
+  text-align: center;
+  padding: .2em .5em .3em;
+  font-size: 1.125rem;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:hover {
+  background-color: #cc1465;
+}
+
+footer {
+  background-color: #ffe500;
+  text-align: center;
+  font-size: .75em;
+  padding: .75em;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.blueberries, .grapes, .red-currants {
+  text-align: center;
+  padding: .75em;
+}
+
+p {
+  margin: 0 0 .3em;
+  padding: .75em;
+}
+
+.nav .current {
+  background-color: #b20953;
+}
