@@ -38,12 +38,10 @@ h2 {
   padding: .75em;
 }
 
-.nav li {
-  background-color: #b2a212;
-  border-radius: 4px;
+nav li {
+  margin-bottom: .3em;
   display: inline-block;
   text-align: center;
-  padding: .2em .5em .3em;
   font-size: 1.125rem;
 }
 .nav {
@@ -51,14 +49,15 @@ h2 {
   padding: 0;
 }
 
-a {
+nav a {
+  background-color: #b2a212;
+  border-radius: 4px;
+  padding: .2em .5em .3em;
   color: #fff;
   text-decoration: none;
-  padding: 0;
-  margin: 0;
 }
 
-li:hover {
+nav a:hover {
   background-color: #cc1465;
 }
 
@@ -84,6 +83,6 @@ p {
   padding: .75em;
 }
 
-.nav .current {
+nav a.current {
   background-color: #b20953;
 }
