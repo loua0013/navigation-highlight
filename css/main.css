@@ -38,15 +38,15 @@ h2 {
   padding: .75em;
 }
 
-nav li {
+.nav li {
   margin-bottom: .3em;
   display: inline-block;
   text-align: center;
-  font-size: .77rem;
+  font-size: .8rem;
 }
 
 .nav {
-  margin: 0 0 3em;
+  margin: 0 0 .3em;
   padding: 0;
 }
 
