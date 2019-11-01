@@ -24,7 +24,7 @@ header {
 h1 {
   font-size: 3rem;
   margin: 0;
-  font-family: 'Sigmar One', sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   text-align: center;
 }
@@ -32,9 +32,9 @@ h1 {
 h2 {
   font-size: 1.875rem;
   margin: 0;
-  font-family: 'Sigmar One', sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
-  margin: 0 0 .3em;
+  margin: 0 .3em;
   padding: .75em;
 }
 
@@ -44,6 +44,7 @@ nav li {
   text-align: center;
   font-size: 1.125rem;
 }
+
 .nav {
   margin: 0;
   padding: 0;
