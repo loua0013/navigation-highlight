@@ -17,9 +17,9 @@ body {
 }
 
 header {
+  display: block;
   background-color: #ffe500;
   text-align: center;
-  padding: .2em .5em .3em;
 }
 
 h1 {
@@ -28,34 +28,34 @@ h1 {
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
   text-align: center;
+
 }
 
 h2 {
   font-size: 1.875rem;
-  margin: 0;
   font-family: "Sigmar One", sans-serif;
   color: #b20953;
-  padding: .75em;
+  text-align: left;
 }
 
 .nav li {
-  margin-bottom: .3em;
   display: inline-block;
   text-align: center;
-  font-size: .8rem;
+  margin-bottom: .3em;
 }
 
 .nav {
-  margin: 0 0 .3em;
+  margin: 0;
   padding: 0;
 }
 
 nav a {
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .75em;
+  padding: .2em .5em .3em;
   color: #fff;
   text-decoration: none;
+  display:inline-block;
 }
 
 nav a:hover {
@@ -67,6 +67,7 @@ footer {
   text-align: center;
   font-size: 1rem;
   padding: .75em;
+  margin: 0;
 }
 
 img {
@@ -74,14 +75,8 @@ img {
   width: 100%;
 }
 
-.blueberries, .grapes, .red-currants {
-  text-align: center;
-  padding: .75em;
-}
-
-p {
-  margin: 0 0 .3em;
-  padding: .75em;
+main {
+  padding: 0 .75em;
 }
 
 nav a.current {
